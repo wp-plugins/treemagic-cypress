@@ -1,0 +1,129 @@
+/* ================================================================
+This copyright notice must be untouched at all times.
+copyright (c) 2008 Ambient Webs LLC
+=================================================================== */
+div#aw_popup.aw_popupmenu {
+background:#f1f1f1;
+border-bottom:solid 1px #898B87;
+border-left:solid 1px #C9C7C4;
+border-right:solid 1px #898B87;
+border-top:solid 1px #C9C7C4;
+margin:15px 0 15px 15px;
+padding-left:25px;
+padding-right:10px;
+padding-top:2px;
+position:absolute;
+text-align:left;
+}
+div#aw_popup.h2{
+background:#D1D3D5 url(images/fileclose.png) no-repeat right top;
+border-bottom:1px ridge #7F7F7F ;
+font-variant: small-caps;
+font-size: 110%;
+margin-left:-25px;
+margin-right:-10px;
+padding:5px;
+font-weight:600;
+color:#2D4D88;
+}
+/* remove all the bullets, borders and padding from the default list styling */
+div.aw_popupmenu ul {
+list-style-type:none;
+margin:0;
+padding:0;
+position:relative;
+width:150px;
+z-index:500;
+
+}
+
+/* style the list items */
+div.aw_popupmenu li {
+background:transparent;
+float:left;
+height:26px;
+
+}
+
+
+
+/* style the links */
+div.aw_popupmenu a,.aw_popupmenu a:visited {
+color:#000;
+display:block;
+height:25px;
+line-height:25px;
+text-decoration:none;
+text-indent:5px;
+width:149px;
+
+}
+div.aw_popupmenu li.subRight {
+background:transparent url(images/subRight.gif) no-repeat right center;
+}
+div.aw_popupmenu li.subLeft {
+background:transparent url(images/subLeft.gif) no-repeat left center;
+}
+
+/* hack for IE5.5 */
+* html div.aw_popupmenu a,* html div.aw_popupmenu a:visited {
+width:149px;
+
+}
+
+/* style the link hover */
+* html div.aw_popupmenu a:hover {
+background:#798DB2;
+color:#efa;
+position:relative;
+
+}
+
+div.aw_popupmenu li:hover {
+position:relative;
+
+}
+
+/* Rodwans:  to view the sub menu to the left or to the right of the main menu
+hide the sub levels and give them a positon absolute so that they take up no room */
+div.aw_popupmenu li.subRight ul {
+background:#E5E5E5;
+border-bottom:solid 1px #898B87;
+border-left:solid 1px #C9C7C4;
+border-right:solid 1px #898B87;
+border-top:solid 1px #C9C7C4;
+left:140px;
+padding-left:25px;
+position:absolute;
+visibility:hidden;
+
+}
+div.aw_popupmenu li.subLeft ul {
+background:#E5E5E5;
+border-bottom:solid 1px #898B87;
+border-left:solid 1px #C9C7C4;
+border-right:solid 1px #898B87;
+border-top:solid 1px #C9C7C4;
+left:-175px;
+padding-left:25px;
+position:absolute;
+visibility:hidden;
+
+}
+
+/* for browsers that understand this is all you need for the flyouts */
+div.aw_popupmenu li:hover > ul {
+background:#E5E5E5;
+border-bottom:solid 1px #898B87;
+border-left:solid 1px #C9C7C4;
+border-right:solid 1px #898B87;
+border-top:solid 1px #C9C7C4;
+visibility:visible;
+
+}
+
+div.aw_popupmenu a:active,div.aw_popupmenu a:focus,div.aw_popupmenu li:hover > a {
+background:#798DB2;
+color:#efa;
+
+}
