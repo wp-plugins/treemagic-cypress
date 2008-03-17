@@ -3,7 +3,7 @@
 Plugin Name: TreeMagic-Cypress
 Plugin URI: http://ambientwebs.com/?page_id=12
 Version: 2.2.1
-Author: <a href="http://ambientwebs.com/">Ambient Webs LLC</a> for more information please contact  <a href="http://treemagic.org" > http://treemagic.org  </a> Once installed go to Options >> TM-Cypress Options Editor and customize TM-Cypress for your needs
+Author: Ambient Webs LLC
 Description: Way of making Internet and Intranet information easily accessible
 */
 
