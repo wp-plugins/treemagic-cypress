@@ -3,7 +3,7 @@ TERMS AND CONDITIONS OF RELEASE AND USAGE FOR TREEMAGIC CYPRESS V.1.0.0
 Attribution-Share Alike 3.0 Unported
 This license is acceptable for Free Cultural Works.
 You are free:
-
+ 
     * to Share — to copy, distribute and transmit the work
     * to Remix — to adapt the work
 

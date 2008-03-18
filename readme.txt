@@ -1,45 +1,55 @@
+=== Plugin Name ===
+Contributors: rabideau
+Donate link: http://wordpresshelp.org/2008/02/14/treemagic-cypress/
+Tags: plugin, integration, menu, navigation , search
+Requires at least: 1.0.0
+Tested up to: 2.1.0
+Stable tag: 2.3.0
+
+This software package is released by Ambient Webs LLC under the Creative Commons license: Attribution-ShareAlike 3.0 Unported. 
+
+
 == Description ==
 
-TreeMagic Cypress is a new lightweight browser plugin for Word Press. By double clicking any word, or selecting a group of words on the page, It gives you instant access to several useful options from a discreet popup.
+TreeMagic Banyan is a new lightweight browser plugin for Word Press. By double clicking any word, or selecting a group of words on the page, It gives you instant access to several useful options from a discreet popup.
 
 The list of options is configurable fom the plugin administration section and can include queries to any external website you like. You could also query your own website search engine to make instant searches available on any term.
 
-The choice is yours, to query a search engine, reference site, or another website that supports your content. Whatever your choice, TreeMagic Cypress will bring instant extended meaning, context and connectivity to your text. You visitors and members will love the convenience of exploring your pages without leaving your web site!
+The choice is yours, to query a search engine, reference site, or another website that supports your content. Whatever your choice, TreeMagic Banyan will bring instant extended meaning, context and connectivity to your text. You visitors and members will love the convenience of exploring your pages without leaving your web site!
 
-The prospects for this function are almost limitless and the overhead practically zero.  If you or your firm needs to cross-link information between numerous portals, TreeMagic-Cypress could help you achieve that objective.  If you would like our help in implementing this function please contact us.
+The prospects for this function are almost limitless and the overhead practically zero.  If you or your firm needs to cross-link information between numerous portals, TreeMagic-Banyan could help you achieve that objective.  If you would like our help in implementing this function please contact us.
 
 The Future. Now.
 
-== Download and support ==
-
-http://wordpresshelp.org/2008/02/14/treemagic-cypress/
 
 == Installation ==
 
 This section describes how to install the plugin and get it working.
 
-1. Extract 'TM-Cypress_vX.X.X.zip' to the '/wp-content/plugins/' directory, in order to have a directory structure like '/wp-content/plugins/TM-Cypress_vX.X.X/'.
+1. Extract 'TM-Cypress.zip' to the '/wp-content/plugins/' directory, in order to have a directory structure like '/wp-content/plugins/TM-Cypress/'.
 
 2. Activate the plug-in through the 'Plugins' menu in WordPress.
 
 3. Browse to 'Options' --> 'TM-Cypress Options Editor' and start adding option to your TM-Cypress control. 
 
+4. Place `<?php wp_footer(); ?>` in your templates (if not exist)
+
 == Frequently Asked Questions ==
 
-= Where I can find a sample working version of TreeMagic-Cypress? =
+= Where I can find a sample working version of TreeMagic-Banyan? =
 
-You can see a functional TreeMagic-Cypress at http://www.AmbientWebs.com
+You can see a functional TreeMagic-Banyan at http://www.AmbientWebs.com
 
-= Where I can find examples of TreeMagic-Cypress options? =
+= Where I can find examples of TreeMagic-Banyan options? =
 
 Those can be found in the ' Practical TM-Cypress Examples ' section in the Readme file.
 
 == Screenshots ==
 http://treemagic.org/images/TM-Cypress.jpg
 
-== How-To Section ==
+== A brief Markdown Example ==
 
-You can start with adding TreeMagic-Cypress options, by pressing the "Add another Option" button in the administration page and filling the mandatory fields: 
+You can start with adding TreeMagic-Banyan options, by pressing the "Add another Option" button in the administration page and filling the mandatory fields: 
 
 1. Display Text: Contains the option's text that will be shown to the end-users when they highlight any text of the site's content.
 
@@ -72,9 +82,5 @@ This section shows some practical options that you can use to configure your TM-
   A. GBP to USD: http://finance.yahoo.com/currency/convert?from=GBP&to=USD&submit=Convert&amt=
   B. USD to JOD: http://finance.yahoo.com/currency/convert?from=USD&to=JOD&submit=Convert&amt=
 
-For more information and support for TreeMagic Cypress, please visit http://wordpresshelp.org
+For more information and support for TreeMagic Banyan, please visit http://wordpresshelp.org
 Details page: http://wordpresshelp.org/2008/02/14/treemagic-cypress/
-
-Terms of release and use:
-
-This software package is released by Ambient Webs LLC under the Creative Commons license: Attribution-ShareAlike 3.0 Unported. For full details of terms and conditions that apply, see http://creativecommons.org/licenses/by-sa/3.0/ or see a copy of the licence enclosed in this package.
