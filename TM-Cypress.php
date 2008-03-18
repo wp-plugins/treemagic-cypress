@@ -2,7 +2,7 @@
 /*
 Plugin Name: TreeMagic-Cypress
 Plugin URI: http://ambientwebs.com/?page_id=12
-Version: 3.2.0
+Version: 2.3.0
 Author: Ambient Webs LLC
 Description: Way of making Internet and Intranet information easily accessible
 */
@@ -12,7 +12,7 @@ if (!class_exists("MQFunctions")) {
         var $MQOptionsName = "TreeMagicCypressOptions";
 		var $PluginName = "TM-Cypress";
 		var $update_URI = "http://rodwans/wppun.txt";
-		var $current_version = "3.2.0";
+		var $current_version = "2.3.0";
         function MQFunctions() { } //constructor
         function getMQOptions() {
             $MQ['displayText'] = array(0 => 'Wikipedia', 1 => 'Google', 2 => 'Google - Images', 3 => 'Google - News');

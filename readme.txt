@@ -17,7 +17,7 @@ The list of options is configurable fom the plugin administration section and ca
 
 The choice is yours, to query a search engine, reference site, or another website that supports your content. Whatever your choice, TreeMagic Banyan will bring instant extended meaning, context and connectivity to your text. You visitors and members will love the convenience of exploring your pages without leaving your web site!
 
-The prospects for this function are almost limitless and the overhead practically zero.  If you or your firm needs to cross-link information between numerous portals, TreeMagic-Banyan could help you achieve that objective.  If you would like our help in implementing this function please contact us.
+The prospects for this function are almost limitless and the overhead practically zero. If you or your firm needs to cross-link information between numerous portals, TreeMagic-Banyan could help you achieve that objective. If you would like our help in implementing this function please contact us.
 
 The Future. Now.
 
@@ -26,11 +26,11 @@ The Future. Now.
 
 This section describes how to install the plugin and get it working.
 
-1. Extract 'TM-Cypress.zip' to the '/wp-content/plugins/' directory, in order to have a directory structure like '/wp-content/plugins/TM-Cypress/'.
+1. Extract `TM-Cypress.zip` to the `/wp-content/plugins/` directory, in order to have a directory structure like `/wp-content/plugins/TM-Cypress/`.
 
-2. Activate the plug-in through the 'Plugins' menu in WordPress.
+2. Activate the plug-in through the `Plugins` menu in WordPress.
 
-3. Browse to 'Options' --> 'TM-Cypress Options Editor' and start adding option to your TM-Cypress control. 
+3. Browse to `Options` --> `TM-Cypress Options Editor` and start adding option to your TM-Cypress control. 
 
 4. Place `<?php wp_footer(); ?>` in your templates (if not exist)
 
@@ -67,20 +67,20 @@ This section shows some practical options that you can use to configure your TM-
 
 1. Wikipedia: http://en.wikipedia.org/wiki/
 
-2. Search Google: http://www.google.com/search?hl=en&q=
-  A. News: http://news.google.com/news?hl=en&gbv=2&ie=UTF-8&sa=N&tab=in&q=
-  B. Images: http://images.google.com/images?hl=en&gbv=2&q=	 
+2. Search Google: http://www.google.com/search?hl=en&q=      
+  * News: http://news.google.com/news?hl=en&gbv=2&ie=UTF-8&sa=N&tab=in&q=
+  * Images: http://images.google.com/images?hl=en&gbv=2&q=	 
 
 3. Google Translate: http://translate.google.com/translate_t?text=
-  A. English – French: http://translate.google.com/translate_t?langpair=en%7Cfr&text=
-  B. English – German: http://translate.google.com/translate_t?langpair=en%7Cde&text=
+  * English - French: http://translate.google.com/translate_t?langpair=en%7Cfr&text=
+  * English - German: http://translate.google.com/translate_t?langpair=en%7Cde&text=
 
 4. Dictionary: http://dictionary.reference.com/browse/
 
 
 5. Currency Conversion: http://finance.yahoo.com/currency?u
-  A. GBP to USD: http://finance.yahoo.com/currency/convert?from=GBP&to=USD&submit=Convert&amt=
-  B. USD to JOD: http://finance.yahoo.com/currency/convert?from=USD&to=JOD&submit=Convert&amt=
+  * GBP to USD: http://finance.yahoo.com/currency/convert?from=GBP&to=USD&submit=Convert&amt=
+  * USD to JOD: http://finance.yahoo.com/currency/convert?from=USD&to=JOD&submit=Convert&amt=
 
 For more information and support for TreeMagic Banyan, please visit http://wordpresshelp.org
 Details page: http://wordpresshelp.org/2008/02/14/treemagic-cypress/
