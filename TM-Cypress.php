@@ -2,7 +2,7 @@
 /*
 Plugin Name: TreeMagic-Cypress
 Plugin URI: http://ambientwebs.com/?page_id=12
-Version: 2.4.0
+Version: 2.4.1
 Author: Ambient Webs LLC
 Description: Way of making Internet and Intranet information easily accessible
 */
@@ -10,9 +10,6 @@ Description: Way of making Internet and Intranet information easily accessible
 if (!class_exists("MQFunctions")) {
     class MQFunctions {
         var $MQOptionsName = "TreeMagicCypressOptions";
-		var $PluginName = "treemagic-cypress";
-		var $update_URI = "http://wordpresshelp.org/CypressUpdate.txt";
-		var $current_version = "2.4.0";
         function MQFunctions() { } //constructor
         function getMQOptions() {
             $MQ['displayText'] = array(0 => 'Wikipedia', 1 => 'Google', 2 => 'Google - Images', 3 => 'Google - News');
@@ -27,25 +24,6 @@ if (!class_exists("MQFunctions")) {
             update_option($this->MQOptionsName, $MQ);
             return $MQ;
         }
-		function tm_plugin_update_row( $file ) {
-			$PluginName = $this->PluginName;
-			$update_URI = $this->update_URI;
-			$current_version = $this->current_version;
-			if (substr($file,0,strlen($PluginName)) == $PluginName){
-				if (@fopen($update_URI, "r")) {
-					$_data = implode('', file($update_URI));
-					preg_match("|version:(.*)|i", $_data, $_version);
-					preg_match("|location:(.*)|i", $_data, $_location);
-					$new_version = trim($_version[1]);
-					$location = trim($_location[1]);
-					if( strnatcmp($current_version,$new_version) == -1){
-						echo "<tr><td colspan='5' class='plugin-update'>";
-						printf( __('There is a new version of %s available. <a href="%s">Download version %s here</a>.'), $PluginName, $location, $new_version  );
-						echo "</td></tr>";
-					}
-				}
-			}
-		}
         function buildMQHeader(){
             echo '<link type="text/css" rel="stylesheet" href="' . get_bloginfo('wpurl') . '/wp-content/plugins/treemagic-cypress/TM-Cypress.css" />'. "\n";
             wp_enqueue_script('devlounge_plugin_series', get_bloginfo('wpurl') . '/wp-content/plugins/treemagic-cypress/TM-Cypress.js', array('prototype'), '0.3');
@@ -352,5 +330,4 @@ if (isset($dl_MQFunctions)) {
 
 }
 add_action('admin_menu', 'JValleyPluginSeries_ap');
-add_action( 'after_plugin_row',  array(&$dl_MQFunctions, 'tm_plugin_update_row') );
 ?>
