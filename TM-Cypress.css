@@ -62,7 +62,7 @@ div.aw_popupmenu li.subRight {
 background:transparent url(images/subRight.gif) no-repeat right center;
 }
 div.aw_popupmenu li.subLeft {
-background:transparent url(images/subLeft.gif) no-repeat left center;
+background:transparent url(images/subLeft.gif) no-repeat right center;
 }
 
 /* hack for IE5.5 */
