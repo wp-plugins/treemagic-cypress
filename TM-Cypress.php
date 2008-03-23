@@ -2,7 +2,7 @@
 /*
 Plugin Name: TreeMagic-Cypress
 Plugin URI: http://ambientwebs.com/?page_id=12
-Version: 2.3.0
+Version: 2.4.0
 Author: Ambient Webs LLC
 Description: Way of making Internet and Intranet information easily accessible
 */
@@ -10,9 +10,9 @@ Description: Way of making Internet and Intranet information easily accessible
 if (!class_exists("MQFunctions")) {
     class MQFunctions {
         var $MQOptionsName = "TreeMagicCypressOptions";
-		var $PluginName = "TM-Cypress";
-		var $update_URI = "http://rodwans/wppun.txt";
-		var $current_version = "2.3.0";
+		var $PluginName = "treemagic-cypress";
+		var $update_URI = "http://wordpresshelp.org/CypressUpdate.txt";
+		var $current_version = "2.4.0";
         function MQFunctions() { } //constructor
         function getMQOptions() {
             $MQ['displayText'] = array(0 => 'Wikipedia', 1 => 'Google', 2 => 'Google - Images', 3 => 'Google - News');
@@ -47,15 +47,15 @@ if (!class_exists("MQFunctions")) {
 			}
 		}
         function buildMQHeader(){
-            echo '<link type="text/css" rel="stylesheet" href="' . get_bloginfo('wpurl') . '/wp-content/plugins/TM-Cypress/TM-Cypress.css" />'. "\n";
-            wp_enqueue_script('devlounge_plugin_series', get_bloginfo('wpurl') . '/wp-content/plugins/TM-Cypress/TM-Cypress.js', array('prototype'), '0.3');
+            echo '<link type="text/css" rel="stylesheet" href="' . get_bloginfo('wpurl') . '/wp-content/plugins/treemagic-cypress/TM-Cypress.css" />'. "\n";
+            wp_enqueue_script('devlounge_plugin_series', get_bloginfo('wpurl') . '/wp-content/plugins/treemagic-cypress/TM-Cypress.js', array('prototype'), '0.3');
 
 			//BasheerG 2008.03.05: Supporting GreyBox feature
-			echo '<script type="text/javascript">var GB_ROOT_DIR = "' . get_bloginfo('wpurl') . '/wp-content/plugins/TM-Cypress/greybox/";</script>';
-			wp_enqueue_script('greybox_01', get_bloginfo('wpurl') . '/wp-content/plugins/TM-Cypress/greybox/AJS.js', array('prototype'), '0.3');
-			wp_enqueue_script('greybox_02', get_bloginfo('wpurl') . '/wp-content/plugins/TM-Cypress/greybox/AJS_fx.js', array('prototype'), '0.3');
-			wp_enqueue_script('greybox_03', get_bloginfo('wpurl') . '/wp-content/plugins/TM-Cypress/greybox/gb_scripts.js', array('prototype'), '0.3');
-			echo '<link type="text/css" rel="stylesheet" href="' . get_bloginfo('wpurl') . '/wp-content/plugins/TM-Cypress/greybox/gb_styles.css" media="all"/>'. "\n";
+			echo '<script type="text/javascript">var GB_ROOT_DIR = "' . get_bloginfo('wpurl') . '/wp-content/plugins/treemagic-cypress/greybox/";</script>';
+			wp_enqueue_script('greybox_01', get_bloginfo('wpurl') . '/wp-content/plugins/treemagic-cypress/greybox/AJS.js', array('prototype'), '0.3');
+			wp_enqueue_script('greybox_02', get_bloginfo('wpurl') . '/wp-content/plugins/treemagic-cypress/greybox/AJS_fx.js', array('prototype'), '0.3');
+			wp_enqueue_script('greybox_03', get_bloginfo('wpurl') . '/wp-content/plugins/treemagic-cypress/greybox/gb_scripts.js', array('prototype'), '0.3');
+			echo '<link type="text/css" rel="stylesheet" href="' . get_bloginfo('wpurl') . '/wp-content/plugins/treemagic-cypress/greybox/gb_styles.css" media="all"/>'. "\n";
         }
 
 		function buildMQContent(){
