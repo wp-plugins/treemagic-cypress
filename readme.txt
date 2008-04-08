@@ -3,8 +3,8 @@ Contributors: rabideau
 Donate link: http://wordpresshelp.org/2008/02/14/treemagic-cypress/
 Tags: plugin, integration, menu, navigation , search
 Requires at least: 2.3.1
-Tested up to: 2.3.1
-Stable tag: 2.3.3
+Tested up to: 2.5
+Stable tag: 2.5
 
 This software package is released by Ambient Webs LLC under the Creative Commons license: Attribution-ShareAlike 3.0 Unported. 
 

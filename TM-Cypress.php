@@ -2,7 +2,7 @@
 /*
 Plugin Name: TreeMagic-Cypress
 Plugin URI: http://ambientwebs.com/?page_id=12
-Version: 2.4.3
+Version: 2.5.0
 Author: Ambient Webs LLC
 Description: Way of making Internet and Intranet information easily accessible
 */
