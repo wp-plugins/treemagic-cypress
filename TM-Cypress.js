@@ -40,7 +40,7 @@ function browsURL(URLRequested, oprationNumber) {
         if ( strSelectedText ){
 			//BasheerG 2008.03.05: Supporting GreyBox feature
 			//window.open( URLRequested + encodeURIComponent(strSelectedText ), 'dict', 'width=700,height=500,resizable=1,menubar=1,scrollbars=1,status=1,titlebar=1,toolbar=1,location=1,personalbar=1');
-			GB_showCenter('TM-Cypress, Search Result:', URLRequested + encodeURIComponent(strSelectedText ), 500, 700 );
+			GB_showCenter('TM-Cypress, Search Result:', URLRequested + encodeURIComponent(strSelectedText ), 500, 800 );
 		}
     }
     
